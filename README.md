@@ -121,13 +121,14 @@
      
    * click the "Fork" button in the GitHub.com rdpeng/ProgrammingAssignment2 repository
   
----------------------------------------------------------------------------------------------
-2. Clone your forked GitHub repository to my PC so that I can edit the files locally.
 
-  I made a local copy of the repo on my PC via the following command   
+2. Clone my forked GitHub repository to my PC so that I can edit the files locally.
+
+  I made a local copy of the repo on my PC via the following command 
+  
      $git clone https://github.com/sjchan-ds/ProgrammingAssignment2.git
      
-----------------------------------------------------------------------------------------------
+
 3. Edit the R file contained in the git repository and place my solution in  "cachematrix.R"
 
  * Open Rstudio -- change working directory to the local repo ProgrammingAssignment directory
@@ -139,28 +140,30 @@
  * (optional) edit/modify readme.md to fill in the procedures how I put my version of 
    cachematrix.R back to my GitHub repo
  
----------------------------------------------------------------------------------------------
+
 4. Commit your completed R file into my git repository and push your git branch to 
 the GitHub repository under your account.
 
  * Use "git add": take a snapshot for add/update files that are stored in a temporary stage 
    called "index"
+   
      $git add -A . 
      
- * Use "git commit": permanently store in the content of the index in the local repo 
-     $git commit -m "my xxth verison"   ##permanently store in the content of the index in the repo
+ * Use "git commit": permanently store in the content of the index in my local repo
+ 
+     $git commit -m "my xxth verison"   
    
- * Push the permanently stored files in the repo to the GitHub repo (remote repo: sjchan-ds/Spoon-Knife)
+ * Push the permanently stored files in the repo to the GitHub repo (remote repo)
+ 
      $git push origin master
      
--------------------------------------------------------------------------------------------
+
 5. Submit to Coursera the URL to my GitHub repository that contains the completed R code 
    the assignment.
                    
 
   The  link is:
-  https://github.com/sjchan-ds/ProgrammingAssignment2/blob/master/cachematrix.R
-  
+  https://github.com/sjchan-ds/ProgrammingAssignment2
 
 
 

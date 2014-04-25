@@ -1,4 +1,5 @@
 ## cachematrix.R
+## author: sjchan-ds (gitHub username)
 ## Matrix inversion is very costly computation. It should have advantages if ithe inverse
 ## matrix is stored rather than compute it repeatedly.
 ## The following two functions are for storing the calucated value of an inverse matrix
