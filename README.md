@@ -109,56 +109,56 @@
 
 ### The following is the main steps to produce my assignement
 
-1. Fork the GitHub repository containing the stub R files at
+* Fork the GitHub repository containing the stub R files at
    https://github.com/rdpeng/ProgrammingAssignment2 to create a copy under my own account.
   
    I performed the following steps:
-   * type "rdpeng/ProgrammingAssignment2" in the box "search or type a command" on the 
+   ** type "rdpeng/ProgrammingAssignment2" in the box "search or type a command" on the 
      command bar located at the top of the page.
    
-   * click "return" button on the keyboard of my PC
+   ** click "return" button on the keyboard of my PC
      (Google-Chrome will open a new webpage https://github.com/rdpeng/ProgrammingAssignment2)
      
-   * click the "Fork" button in the GitHub.com rdpeng/ProgrammingAssignment2 repository
+   ** click the "Fork" button in the GitHub.com rdpeng/ProgrammingAssignment2 repository
   
 
-2. Clone my forked GitHub repository to my PC so that I can edit the files locally.
+*  Clone my forked GitHub repository to my PC so that I can edit the files locally.
 
-  I made a local copy of the repo on my PC via the following command 
+   I made a local copy of the repo on my PC via the following command 
   
      $git clone https://github.com/sjchan-ds/ProgrammingAssignment2.git
      
 
-3. Edit the R file contained in the git repository and place my solution in  "cachematrix.R"
+* Edit the R file contained in the git repository and place my solution in  "cachematrix.R"
 
- * Open Rstudio -- change working directory to the local repo ProgrammingAssignment directory
+  ** Open Rstudio -- change working directory to the local repo ProgrammingAssignment directory
  
- * Open R script file: cachematrix.R
+  ** Open R script file: cachematrix.R
  
- * Edit/modify cachematrix.R  whenever I think it is necessary
+  ** Edit/modify cachematrix.R  whenever I think it is necessary
  
- * (optional) edit/modify readme.md to fill in the procedures how I put my version of 
+  ** (optional) edit/modify readme.md to fill in the procedures how I put my version of 
    cachematrix.R back to my GitHub repo
  
 
-4. Commit your completed R file into my git repository and push your git branch to 
+* Commit your completed R file into my git repository and push your git branch to 
 the GitHub repository under your account.
 
- * Use "git add": take a snapshot for add/update files that are stored in a temporary stage 
+  ** Use "git add": take a snapshot for add/update files that are stored in a temporary stage 
    called "index"
    
      $git add -A . 
      
- * Use "git commit": permanently store in the content of the index in my local repo
+  ** Use "git commit": permanently store in the content of the index in my local repo
  
      $git commit -m "my xxth verison"   
    
- * Push the permanently stored files in the repo to the GitHub repo (remote repo)
+  ** Push the permanently stored files in the repo to the GitHub repo (remote repo)
  
      $git push origin master
      
 
-5. Submit to Coursera the URL to my GitHub repository that contains the completed R code 
+* Submit to Coursera the URL to my GitHub repository that contains the completed R code 
    the assignment.
                    
 
