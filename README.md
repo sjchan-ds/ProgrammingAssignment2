@@ -142,7 +142,7 @@
    cachematrix.R back to my GitHub repo
  
 
-* Commit my completed R file into my git repository and push your git branch to 
+* Commit my completed R file into my git repository and push my git branch to 
 the GitHub repository under your account.
 
    + Use "git add": take a snapshot for add/update files that are stored in a temporary stage 
