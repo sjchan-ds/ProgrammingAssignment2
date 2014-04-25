@@ -1,6 +1,6 @@
 ## cachematrix.R
-## Matrix inversion is usually a costly computation and their may be some benefit 
-## to caching the inverse of a matrix rather than compute it repeatedly.
+## Matrix inversion is very costly computation. It should have advantages if ithe inverse
+## matrix is stored rather than compute it repeatedly.
 ## The following two functions are for storing the calucated value of an inverse matrix
 ## in a cache to avoid recalcuating it repeatedly.
 
@@ -17,12 +17,12 @@ makeCacheMatrix <- function(x = matrix()) {
      invM <- NULL    # define and initiate invM
      
      set <- function(y) { #set function for setting value of input matrix
-         x <<- y
-         invM <<- NULL
+         x <<- y          ## store the input matrix into the cache
+         invM <<- NULL    ## initiate invM 
      } ##end of set function
      
      get <- function(){ #get function for getting value of input matrix
-         x
+         x              ## get the stored matrix 
      }    
      
      setinvMatrix <- function(invMatrix){  #setinvMatrix function
@@ -56,7 +56,7 @@ cacheSolve <- function(x, ...) {
         if(!is.null(invM)) {  # check whether inverse matrix has been caculated and stored in cache 
               # the value of the inverse matrix is in cache
               message("Getting cached data")  # print a message 
-              return(invM)                    # retrun its value that is stored in cache,
+              return(invM)                    # return its value that is stored from cache,
         }                                     # skip the caculation
         
         ## the following is for the case: the inverse matrix has NOT been caculated
